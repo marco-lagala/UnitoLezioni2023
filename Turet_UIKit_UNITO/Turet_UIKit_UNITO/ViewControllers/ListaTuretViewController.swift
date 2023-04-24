@@ -2,12 +2,7 @@ import UIKit
 
 class ListaTuretViewController: UIViewController {
     
-    @IBOutlet weak var tableView: UITableView! {
-        didSet {
-            tableView.delegate = self
-            tableView.dataSource = self
-        }
-    }
+    @IBOutlet weak var tableView: UITableView!
     
     var datasource: [Turet] {
        return [
@@ -15,6 +10,11 @@ class ListaTuretViewController: UIViewController {
             Turet(id: 2, address: "Via Roma", buildingDate: "1949", underMaintenance: false),
             Turet(id: 3, address: "Via Accademia delle Scienze", buildingDate: "1993", underMaintenance: true)
         ]
+    }
+    
+    override func viewDidLoad() {
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 }
 
