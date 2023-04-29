@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D872541129F510AB00F1E7E4 /* ListaTuretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872541029F510AB00F1E7E4 /* ListaTuretViewController.swift */; };
 		D872541429F5157E00F1E7E4 /* Turet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872541329F5157E00F1E7E4 /* Turet.swift */; };
+		D8ACE47129F7B6320042DC74 /* TuretInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACE46F29F7B6320042DC74 /* TuretInfoTableViewCell.swift */; };
+		D8ACE47229F7B6320042DC74 /* TuretInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ACE47029F7B6320042DC74 /* TuretInfoTableViewCell.xib */; };
 		EEAEDBD929DB00860092978B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEDBD829DB00860092978B /* AppDelegate.swift */; };
 		EEAEDBDB29DB00860092978B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEDBDA29DB00860092978B /* SceneDelegate.swift */; };
 		EEAEDBDD29DB00860092978B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEDBDC29DB00860092978B /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		D872541029F510AB00F1E7E4 /* ListaTuretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTuretViewController.swift; sourceTree = "<group>"; };
 		D872541329F5157E00F1E7E4 /* Turet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet.swift; sourceTree = "<group>"; };
+		D8ACE46F29F7B6320042DC74 /* TuretInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretInfoTableViewCell.swift; sourceTree = "<group>"; };
+		D8ACE47029F7B6320042DC74 /* TuretInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TuretInfoTableViewCell.xib; sourceTree = "<group>"; };
 		EEAEDBD529DB00860092978B /* Turet_UIKit_UNITO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turet_UIKit_UNITO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAEDBD829DB00860092978B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEAEDBDA29DB00860092978B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		D8ACE46E29F7B4630042DC74 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D8ACE46F29F7B6320042DC74 /* TuretInfoTableViewCell.swift */,
+				D8ACE47029F7B6320042DC74 /* TuretInfoTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		EEAEDBCC29DB00860092978B = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +132,7 @@
 		EEAEDBD729DB00860092978B /* Turet_UIKit_UNITO */ = {
 			isa = PBXGroup;
 			children = (
+				D8ACE46E29F7B4630042DC74 /* Cells */,
 				D872541229F5156800F1E7E4 /* Models */,
 				D872540F29F5109200F1E7E4 /* ViewControllers */,
 				EEAEDBD829DB00860092978B /* AppDelegate.swift */,
@@ -255,6 +269,7 @@
 			files = (
 				EEAEDBE529DB00880092978B /* LaunchScreen.storyboard in Resources */,
 				EEAEDBE229DB00880092978B /* Assets.xcassets in Resources */,
+				D8ACE47229F7B6320042DC74 /* TuretInfoTableViewCell.xib in Resources */,
 				EEAEDBE029DB00860092978B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +299,7 @@
 				D872541129F510AB00F1E7E4 /* ListaTuretViewController.swift in Sources */,
 				EEAEDBD929DB00860092978B /* AppDelegate.swift in Sources */,
 				EEAEDBDB29DB00860092978B /* SceneDelegate.swift in Sources */,
+				D8ACE47129F7B6320042DC74 /* TuretInfoTableViewCell.swift in Sources */,
 				D872541429F5157E00F1E7E4 /* Turet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

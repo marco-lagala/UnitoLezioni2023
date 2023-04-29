@@ -4,17 +4,20 @@ class ListaTuretViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var datasource: [Turet] {
+    var datasource: [TuretInfo] {
        return [
-            Turet(id: 1, address: "Via Alessandro Magno", buildingDate: "1957", underMaintenance: false),
-            Turet(id: 2, address: "Via Roma", buildingDate: "1949", underMaintenance: false),
-            Turet(id: 3, address: "Via Accademia delle Scienze", buildingDate: "1993", underMaintenance: true)
+            TuretInfo(id: 1, address: "Via Alessandro Magno", buildingDate: "1957", underMaintenance: false),
+            TuretInfo(id: 2, address: "Via Roma", buildingDate: "1949", underMaintenance: false),
+            TuretInfo(id: 3, address: "Via Accademia delle Scienze", buildingDate: "1993", underMaintenance: true)
         ]
     }
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.register(UINib(nibName: "TuretInfoTableViewCell", bundle: nil), forCellReuseIdentifier: "TuretInfoTableViewCell")
+        tableView.reloadData()
     }
 }
 
@@ -32,12 +35,13 @@ extension ListaTuretViewController: UITableViewDelegate, UITableViewDataSource {
         }
         
         //check if the cell type is correctly registered
-        /*guard let cell = tableView.dequeueReusableCell(withIdentifier: "TuretTableViewCell", for: indexPath) as? TuretTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "TuretInfoTableViewCell", for: indexPath) as? TuretInfoTableViewCell else {
             return UITableViewCell()
         }
-        cell.configure(with: datasource[indexPath.row])
-        return cell*/
-        return UITableViewCell()
+        let info = datasource[indexPath.row]
+        cell.configure(with: info)
+        return cell
+        
     }
     
 }

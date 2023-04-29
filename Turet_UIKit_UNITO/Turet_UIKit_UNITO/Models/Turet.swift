@@ -1,6 +1,6 @@
 
 
-class Turet: Codable {
+class TuretInfo: Codable {
     var id: Int
     var address: String
     var buildingDate: String
