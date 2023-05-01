@@ -12,17 +12,13 @@ struct ContentView: View {
     var turets = ["Turet 1", "Turet 2", "Turet 3"]
     
     var body: some View {
-        
-        List {
-            ForEach(turets, id: \.self) { turet in
-                Text(turet)
-            }
-        }
+        TuretList(turets: turets)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        
         Group {
             ContentView()
                 .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro"))
@@ -31,6 +27,8 @@ struct ContentView_Previews: PreviewProvider {
             ContentView()
                 .previewDevice(PreviewDevice(rawValue: "iPhone SE (3rd generation)"))
                 .previewDisplayName("iPhone SE")
+            
         }
+        
     }
 }

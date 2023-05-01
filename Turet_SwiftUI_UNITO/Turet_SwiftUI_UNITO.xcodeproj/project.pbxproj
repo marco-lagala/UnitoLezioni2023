@@ -14,6 +14,7 @@
 		EEC18A3F2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A3E2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.swift */; };
 		EEC18A492A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A482A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift */; };
 		EEC18A4B2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A4A2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift */; };
+		EEC18A582A00456F009DC987 /* TuretList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A572A00456F009DC987 /* TuretList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EEC18A442A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Turet_SwiftUI_UNITOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC18A482A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOUITests.swift; sourceTree = "<group>"; };
 		EEC18A4A2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEC18A572A00456F009DC987 /* TuretList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
 				EEC18A312A003C02009DC987 /* Assets.xcassets */,
 				EEC18A332A003C02009DC987 /* Preview Content */,
+				EEC18A572A00456F009DC987 /* TuretList.swift */,
 			);
 			path = Turet_SwiftUI_UNITO;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				EEC18A302A003C01009DC987 /* ContentView.swift in Sources */,
 				EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */,
+				EEC18A582A00456F009DC987 /* TuretList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
