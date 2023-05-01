@@ -15,6 +15,9 @@
 		EEC18A492A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A482A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift */; };
 		EEC18A4B2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A4A2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift */; };
 		EEC18A582A00456F009DC987 /* TuretList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A572A00456F009DC987 /* TuretList.swift */; };
+		EEC18A5B2A004C7B009DC987 /* Turet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A5A2A004C7B009DC987 /* Turet.swift */; };
+		EEC18A5E2A004DF7009DC987 /* LoadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A5D2A004DF7009DC987 /* LoadJson.swift */; };
+		EEC18A612A004F1E009DC987 /* turet.json in Resources */ = {isa = PBXBuildFile; fileRef = EEC18A602A004F1E009DC987 /* turet.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		EEC18A482A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOUITests.swift; sourceTree = "<group>"; };
 		EEC18A4A2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EEC18A572A00456F009DC987 /* TuretList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretList.swift; sourceTree = "<group>"; };
+		EEC18A5A2A004C7B009DC987 /* Turet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet.swift; sourceTree = "<group>"; };
+		EEC18A5D2A004DF7009DC987 /* LoadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadJson.swift; sourceTree = "<group>"; };
+		EEC18A602A004F1E009DC987 /* turet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = turet.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */,
+				EEC18A5F2A004F09009DC987 /* Resources */,
+				EEC18A5C2A004DE7009DC987 /* Utility */,
+				EEC18A592A004C6E009DC987 /* Model */,
 				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
 				EEC18A312A003C02009DC987 /* Assets.xcassets */,
 				EEC18A332A003C02009DC987 /* Preview Content */,
@@ -128,6 +137,30 @@
 				EEC18A4A2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift */,
 			);
 			path = Turet_SwiftUI_UNITOUITests;
+			sourceTree = "<group>";
+		};
+		EEC18A592A004C6E009DC987 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A5A2A004C7B009DC987 /* Turet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEC18A5C2A004DE7009DC987 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A5D2A004DF7009DC987 /* LoadJson.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		EEC18A5F2A004F09009DC987 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A602A004F1E009DC987 /* turet.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC18A612A004F1E009DC987 /* turet.json in Resources */,
 				EEC18A352A003C02009DC987 /* Preview Assets.xcassets in Resources */,
 				EEC18A322A003C02009DC987 /* Assets.xcassets in Resources */,
 			);
@@ -262,6 +296,8 @@
 			files = (
 				EEC18A302A003C01009DC987 /* ContentView.swift in Sources */,
 				EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */,
+				EEC18A5E2A004DF7009DC987 /* LoadJson.swift in Sources */,
+				EEC18A5B2A004C7B009DC987 /* Turet.swift in Sources */,
 				EEC18A582A00456F009DC987 /* TuretList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

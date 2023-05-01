@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    var turets = ["Turet 1", "Turet 2", "Turet 3"]
+    var turets: [Turet]
     
     var body: some View {
         TuretList(turets: turets)
@@ -20,11 +19,11 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         
         Group {
-            ContentView()
+            ContentView(turets: mockData)
                 .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro"))
                 .previewDisplayName("iPhone 13 Pro")
             
-            ContentView()
+            ContentView(turets: mockData)
                 .previewDevice(PreviewDevice(rawValue: "iPhone SE (3rd generation)"))
                 .previewDisplayName("iPhone SE")
             

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TuretList: View {
-    var turets: [String]
+    var turets: [Turet]
     
     var body: some View {
         NavigationView {
@@ -16,9 +16,9 @@ struct TuretList: View {
                 ForEach(turets, id: \.self) { turet in
                     
                     NavigationLink {
-                        
+                        Text("Pagina dettaglio per \(turet.address)")
                     } label: {
-                        Text(turet)
+                        Text(turet.address)
                     }
                 }
             }
@@ -29,6 +29,6 @@ struct TuretList: View {
 
 struct TuretList_Previews: PreviewProvider {
     static var previews: some View {
-        TuretList(turets: ["Turet 1", "Turet 2"])
+        TuretList(turets: mockData)
     }
 }
