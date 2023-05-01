@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */; };
+		EEC18A302A003C01009DC987 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2F2A003C01009DC987 /* ContentView.swift */; };
+		EEC18A322A003C02009DC987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC18A312A003C02009DC987 /* Assets.xcassets */; };
+		EEC18A352A003C02009DC987 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC18A342A003C02009DC987 /* Preview Assets.xcassets */; };
+		EEC18A3F2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A3E2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.swift */; };
+		EEC18A492A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A482A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift */; };
+		EEC18A4B2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A4A2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEC18A3B2A003C03009DC987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC18A222A003C01009DC987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC18A292A003C01009DC987;
+			remoteInfo = Turet_SwiftUI_UNITO;
+		};
+		EEC18A452A003C03009DC987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC18A222A003C01009DC987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC18A292A003C01009DC987;
+			remoteInfo = Turet_SwiftUI_UNITO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEC18A2A2A003C01009DC987 /* Turet_SwiftUI_UNITO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turet_SwiftUI_UNITO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOApp.swift; sourceTree = "<group>"; };
+		EEC18A2F2A003C01009DC987 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEC18A312A003C02009DC987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC18A342A003C02009DC987 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEC18A3A2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Turet_SwiftUI_UNITOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC18A3E2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOTests.swift; sourceTree = "<group>"; };
+		EEC18A442A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Turet_SwiftUI_UNITOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC18A482A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOUITests.swift; sourceTree = "<group>"; };
+		EEC18A4A2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC18A272A003C01009DC987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC18A372A003C03009DC987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC18A412A003C03009DC987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEC18A212A003C01009DC987 = {
+			isa = PBXGroup;
+			children = (
+				EEC18A2C2A003C01009DC987 /* Turet_SwiftUI_UNITO */,
+				EEC18A3D2A003C03009DC987 /* Turet_SwiftUI_UNITOTests */,
+				EEC18A472A003C03009DC987 /* Turet_SwiftUI_UNITOUITests */,
+				EEC18A2B2A003C01009DC987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC18A2B2A003C01009DC987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A2A2A003C01009DC987 /* Turet_SwiftUI_UNITO.app */,
+				EEC18A3A2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.xctest */,
+				EEC18A442A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC18A2C2A003C01009DC987 /* Turet_SwiftUI_UNITO */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */,
+				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
+				EEC18A312A003C02009DC987 /* Assets.xcassets */,
+				EEC18A332A003C02009DC987 /* Preview Content */,
+			);
+			path = Turet_SwiftUI_UNITO;
+			sourceTree = "<group>";
+		};
+		EEC18A332A003C02009DC987 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A342A003C02009DC987 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEC18A3D2A003C03009DC987 /* Turet_SwiftUI_UNITOTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A3E2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.swift */,
+			);
+			path = Turet_SwiftUI_UNITOTests;
+			sourceTree = "<group>";
+		};
+		EEC18A472A003C03009DC987 /* Turet_SwiftUI_UNITOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A482A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift */,
+				EEC18A4A2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift */,
+			);
+			path = Turet_SwiftUI_UNITOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC18A292A003C01009DC987 /* Turet_SwiftUI_UNITO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC18A4E2A003C03009DC987 /* Build configuration list for PBXNativeTarget "Turet_SwiftUI_UNITO" */;
+			buildPhases = (
+				EEC18A262A003C01009DC987 /* Sources */,
+				EEC18A272A003C01009DC987 /* Frameworks */,
+				EEC18A282A003C01009DC987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Turet_SwiftUI_UNITO;
+			productName = Turet_SwiftUI_UNITO;
+			productReference = EEC18A2A2A003C01009DC987 /* Turet_SwiftUI_UNITO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEC18A392A003C03009DC987 /* Turet_SwiftUI_UNITOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC18A512A003C03009DC987 /* Build configuration list for PBXNativeTarget "Turet_SwiftUI_UNITOTests" */;
+			buildPhases = (
+				EEC18A362A003C03009DC987 /* Sources */,
+				EEC18A372A003C03009DC987 /* Frameworks */,
+				EEC18A382A003C03009DC987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC18A3C2A003C03009DC987 /* PBXTargetDependency */,
+			);
+			name = Turet_SwiftUI_UNITOTests;
+			productName = Turet_SwiftUI_UNITOTests;
+			productReference = EEC18A3A2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEC18A432A003C03009DC987 /* Turet_SwiftUI_UNITOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC18A542A003C03009DC987 /* Build configuration list for PBXNativeTarget "Turet_SwiftUI_UNITOUITests" */;
+			buildPhases = (
+				EEC18A402A003C03009DC987 /* Sources */,
+				EEC18A412A003C03009DC987 /* Frameworks */,
+				EEC18A422A003C03009DC987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC18A462A003C03009DC987 /* PBXTargetDependency */,
+			);
+			name = Turet_SwiftUI_UNITOUITests;
+			productName = Turet_SwiftUI_UNITOUITests;
+			productReference = EEC18A442A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC18A222A003C01009DC987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EEC18A292A003C01009DC987 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EEC18A392A003C03009DC987 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EEC18A292A003C01009DC987;
+					};
+					EEC18A432A003C03009DC987 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EEC18A292A003C01009DC987;
+					};
+				};
+			};
+			buildConfigurationList = EEC18A252A003C01009DC987 /* Build configuration list for PBXProject "Turet_SwiftUI_UNITO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC18A212A003C01009DC987;
+			productRefGroup = EEC18A2B2A003C01009DC987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC18A292A003C01009DC987 /* Turet_SwiftUI_UNITO */,
+				EEC18A392A003C03009DC987 /* Turet_SwiftUI_UNITOTests */,
+				EEC18A432A003C03009DC987 /* Turet_SwiftUI_UNITOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC18A282A003C01009DC987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC18A352A003C02009DC987 /* Preview Assets.xcassets in Resources */,
+				EEC18A322A003C02009DC987 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC18A382A003C03009DC987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC18A422A003C03009DC987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC18A262A003C01009DC987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC18A302A003C01009DC987 /* ContentView.swift in Sources */,
+				EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC18A362A003C03009DC987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC18A3F2A003C03009DC987 /* Turet_SwiftUI_UNITOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC18A402A003C03009DC987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC18A492A003C03009DC987 /* Turet_SwiftUI_UNITOUITests.swift in Sources */,
+				EEC18A4B2A003C03009DC987 /* Turet_SwiftUI_UNITOUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEC18A3C2A003C03009DC987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC18A292A003C01009DC987 /* Turet_SwiftUI_UNITO */;
+			targetProxy = EEC18A3B2A003C03009DC987 /* PBXContainerItemProxy */;
+		};
+		EEC18A462A003C03009DC987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC18A292A003C01009DC987 /* Turet_SwiftUI_UNITO */;
+			targetProxy = EEC18A452A003C03009DC987 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEC18A4C2A003C03009DC987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEC18A4D2A003C03009DC987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC18A4F2A003C03009DC987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turet_SwiftUI_UNITO/Preview Content\"";
+				DEVELOPMENT_TEAM = SGM73ULJLG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "examples.Turet-SwiftUI-UNITO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEC18A502A003C03009DC987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Turet_SwiftUI_UNITO/Preview Content\"";
+				DEVELOPMENT_TEAM = SGM73ULJLG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "examples.Turet-SwiftUI-UNITO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEC18A522A003C03009DC987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGM73ULJLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "examples.Turet-SwiftUI-UNITOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turet_SwiftUI_UNITO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Turet_SwiftUI_UNITO";
+			};
+			name = Debug;
+		};
+		EEC18A532A003C03009DC987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGM73ULJLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "examples.Turet-SwiftUI-UNITOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turet_SwiftUI_UNITO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Turet_SwiftUI_UNITO";
+			};
+			name = Release;
+		};
+		EEC18A552A003C03009DC987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGM73ULJLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "examples.Turet-SwiftUI-UNITOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Turet_SwiftUI_UNITO;
+			};
+			name = Debug;
+		};
+		EEC18A562A003C03009DC987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGM73ULJLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "examples.Turet-SwiftUI-UNITOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Turet_SwiftUI_UNITO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC18A252A003C01009DC987 /* Build configuration list for PBXProject "Turet_SwiftUI_UNITO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC18A4C2A003C03009DC987 /* Debug */,
+				EEC18A4D2A003C03009DC987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC18A4E2A003C03009DC987 /* Build configuration list for PBXNativeTarget "Turet_SwiftUI_UNITO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC18A4F2A003C03009DC987 /* Debug */,
+				EEC18A502A003C03009DC987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC18A512A003C03009DC987 /* Build configuration list for PBXNativeTarget "Turet_SwiftUI_UNITOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC18A522A003C03009DC987 /* Debug */,
+				EEC18A532A003C03009DC987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC18A542A003C03009DC987 /* Build configuration list for PBXNativeTarget "Turet_SwiftUI_UNITOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC18A552A003C03009DC987 /* Debug */,
+				EEC18A562A003C03009DC987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC18A222A003C01009DC987 /* Project object */;
+}
