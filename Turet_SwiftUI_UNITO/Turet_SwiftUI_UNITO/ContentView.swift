@@ -9,14 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     
+    var turets = ["Turet 1", "Turet 2", "Turet 3"]
+    
     var body: some View {
         
         List {
-            Text("Turet 1")
-            Text("Turet 2")
-            Text("Turet 3")
+            ForEach(turets, id: \.self) { turet in
+                Text(turet)
+            }
         }
-        
     }
 }
 
