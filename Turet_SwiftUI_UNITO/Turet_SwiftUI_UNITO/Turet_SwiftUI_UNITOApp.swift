@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-@main
+@main // This is the app entry point
 struct Turet_SwiftUI_UNITOApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+    
 }
