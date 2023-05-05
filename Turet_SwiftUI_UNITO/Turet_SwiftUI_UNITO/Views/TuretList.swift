@@ -12,14 +12,11 @@ struct TuretList: View {
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(turets, id: \.self) { turet in
-                    
-                    NavigationLink {
-                        Text("Pagina dettaglio per \(turet.address)")
-                    } label: {
-                        Text(turet.address)
-                    }
+            List(turets) { turet in
+                NavigationLink {
+                    Text("Pagina dettaglio per \(turet.address)")
+                } label: {
+                    TuretRow(turet: turet)
                 }
             }
             .navigationTitle("Turet")

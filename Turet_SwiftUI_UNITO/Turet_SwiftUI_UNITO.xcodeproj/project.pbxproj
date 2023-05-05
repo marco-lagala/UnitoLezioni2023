@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEBAFC532A0580D0008C888B /* TuretRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAFC522A0580D0008C888B /* TuretRow.swift */; };
 		EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */; };
 		EEC18A302A003C01009DC987 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2F2A003C01009DC987 /* ContentView.swift */; };
 		EEC18A322A003C02009DC987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC18A312A003C02009DC987 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEBAFC522A0580D0008C888B /* TuretRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretRow.swift; sourceTree = "<group>"; };
 		EEC18A2A2A003C01009DC987 /* Turet_SwiftUI_UNITO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turet_SwiftUI_UNITO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOApp.swift; sourceTree = "<group>"; };
 		EEC18A2F2A003C01009DC987 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEBAFC512A058098008C888B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEC18A572A00456F009DC987 /* TuretList.swift */,
+				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
+				EEBAFC522A0580D0008C888B /* TuretRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EEC18A212A003C01009DC987 = {
 			isa = PBXGroup;
 			children = (
@@ -103,13 +115,12 @@
 			isa = PBXGroup;
 			children = (
 				EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */,
-				EEC18A5F2A004F09009DC987 /* Resources */,
-				EEC18A5C2A004DE7009DC987 /* Utility */,
-				EEC18A592A004C6E009DC987 /* Model */,
-				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
 				EEC18A312A003C02009DC987 /* Assets.xcassets */,
+				EEC18A5F2A004F09009DC987 /* Resources */,
+				EEC18A592A004C6E009DC987 /* Model */,
+				EEBAFC512A058098008C888B /* Views */,
+				EEC18A5C2A004DE7009DC987 /* Utility */,
 				EEC18A332A003C02009DC987 /* Preview Content */,
-				EEC18A572A00456F009DC987 /* TuretList.swift */,
 			);
 			path = Turet_SwiftUI_UNITO;
 			sourceTree = "<group>";
@@ -295,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC18A302A003C01009DC987 /* ContentView.swift in Sources */,
+				EEBAFC532A0580D0008C888B /* TuretRow.swift in Sources */,
 				EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */,
 				EEC18A5E2A004DF7009DC987 /* LoadJson.swift in Sources */,
 				EEC18A5B2A004C7B009DC987 /* Turet.swift in Sources */,

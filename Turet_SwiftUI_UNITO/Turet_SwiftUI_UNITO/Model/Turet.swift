@@ -9,10 +9,10 @@ import Foundation
 
 struct Turet: Hashable, Codable, Identifiable {
     var id: Int
+    var name: String
     var address: String
     var buildingDate: String
     var underMaintenance: Bool
 }
-
 
 var mockData: [Turet] = load("turet.json")
