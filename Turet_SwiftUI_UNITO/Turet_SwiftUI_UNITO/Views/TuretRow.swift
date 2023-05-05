@@ -18,7 +18,7 @@ struct TuretRow: View {
             
             Image("marker")
                 .resizable()
-                .frame(width: 24, height: 30)
+                .frame(width: 24, height: 28)
                 .padding(.all, 8)
         }
     }

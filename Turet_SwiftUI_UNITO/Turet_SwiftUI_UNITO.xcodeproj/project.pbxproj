@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EEBAFC532A0580D0008C888B /* TuretRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAFC522A0580D0008C888B /* TuretRow.swift */; };
+		EEBAFC572A058DF6008C888B /* TuretDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAFC562A058DF6008C888B /* TuretDetails.swift */; };
 		EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */; };
 		EEC18A302A003C01009DC987 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2F2A003C01009DC987 /* ContentView.swift */; };
 		EEC18A322A003C02009DC987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC18A312A003C02009DC987 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		EEBAFC522A0580D0008C888B /* TuretRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretRow.swift; sourceTree = "<group>"; };
+		EEBAFC562A058DF6008C888B /* TuretDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretDetails.swift; sourceTree = "<group>"; };
 		EEC18A2A2A003C01009DC987 /* Turet_SwiftUI_UNITO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turet_SwiftUI_UNITO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOApp.swift; sourceTree = "<group>"; };
 		EEC18A2F2A003C01009DC987 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				EEC18A572A00456F009DC987 /* TuretList.swift */,
 				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
 				EEBAFC522A0580D0008C888B /* TuretRow.swift */,
+				EEBAFC562A058DF6008C888B /* TuretDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC18A302A003C01009DC987 /* ContentView.swift in Sources */,
+				EEBAFC572A058DF6008C888B /* TuretDetails.swift in Sources */,
 				EEBAFC532A0580D0008C888B /* TuretRow.swift in Sources */,
 				EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */,
 				EEC18A5E2A004DF7009DC987 /* LoadJson.swift in Sources */,

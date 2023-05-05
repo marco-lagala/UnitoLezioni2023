@@ -14,7 +14,7 @@ struct TuretList: View {
         NavigationView {
             List(turets) { turet in
                 NavigationLink {
-                    Text("Pagina dettaglio per \(turet.address)")
+                    TuretDetails(turet: turet)
                 } label: {
                     TuretRow(turet: turet)
                 }
