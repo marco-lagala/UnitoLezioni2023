@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D809E7472A063172007D7A69 /* LoadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D809E7462A063172007D7A69 /* LoadJson.swift */; };
+		D809E7482A06331D007D7A69 /* turet.json in Resources */ = {isa = PBXBuildFile; fileRef = D809E7452A06312B007D7A69 /* turet.json */; };
 		D872541129F510AB00F1E7E4 /* ListaTuretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872541029F510AB00F1E7E4 /* ListaTuretViewController.swift */; };
 		D872541429F5157E00F1E7E4 /* Turet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872541329F5157E00F1E7E4 /* Turet.swift */; };
 		D8ACE47129F7B6320042DC74 /* TuretInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACE46F29F7B6320042DC74 /* TuretInfoTableViewCell.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D809E7452A06312B007D7A69 /* turet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = turet.json; sourceTree = "<group>"; };
+		D809E7462A063172007D7A69 /* LoadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadJson.swift; sourceTree = "<group>"; };
 		D872541029F510AB00F1E7E4 /* ListaTuretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTuretViewController.swift; sourceTree = "<group>"; };
 		D872541329F5157E00F1E7E4 /* Turet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet.swift; sourceTree = "<group>"; };
 		D8ACE46F29F7B6320042DC74 /* TuretInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretInfoTableViewCell.swift; sourceTree = "<group>"; };
@@ -84,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D809E7442A063102007D7A69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D809E7452A06312B007D7A69 /* turet.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D872540F29F5109200F1E7E4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 		EEAEDBD729DB00860092978B /* Turet_UIKit_UNITO */ = {
 			isa = PBXGroup;
 			children = (
+				D809E7442A063102007D7A69 /* Resources */,
 				D8ACE46E29F7B4630042DC74 /* Cells */,
 				D872541229F5156800F1E7E4 /* Models */,
 				D872540F29F5109200F1E7E4 /* ViewControllers */,
@@ -142,6 +155,7 @@
 				EEAEDBE129DB00880092978B /* Assets.xcassets */,
 				EEAEDBE329DB00880092978B /* LaunchScreen.storyboard */,
 				EEAEDBE629DB00880092978B /* Info.plist */,
+				D809E7462A063172007D7A69 /* LoadJson.swift */,
 			);
 			path = Turet_UIKit_UNITO;
 			sourceTree = "<group>";
@@ -268,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEAEDBE529DB00880092978B /* LaunchScreen.storyboard in Resources */,
+				D809E7482A06331D007D7A69 /* turet.json in Resources */,
 				EEAEDBE229DB00880092978B /* Assets.xcassets in Resources */,
 				D8ACE47229F7B6320042DC74 /* TuretInfoTableViewCell.xib in Resources */,
 				EEAEDBE029DB00860092978B /* Main.storyboard in Resources */,
@@ -295,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D809E7472A063172007D7A69 /* LoadJson.swift in Sources */,
 				EEAEDBDD29DB00860092978B /* ViewController.swift in Sources */,
 				D872541129F510AB00F1E7E4 /* ListaTuretViewController.swift in Sources */,
 				EEAEDBD929DB00860092978B /* AppDelegate.swift in Sources */,

@@ -4,16 +4,15 @@ class ListaTuretViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var datasource: [TuretInfo] {
-       return [
-            TuretInfo(id: 1, address: "Via Alessandro Magno", buildingDate: "1957", underMaintenance: false),
-            TuretInfo(id: 2, address: "Via Roma", buildingDate: "1949", underMaintenance: false),
-            TuretInfo(id: 3, address: "Via Accademia delle Scienze", buildingDate: "1993", underMaintenance: true)
-        ]
+    var datasource: [Turet] {
+        return mockData
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.largeTitleDisplayMode = .always
+        
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "TuretInfoTableViewCell", bundle: nil), forCellReuseIdentifier: "TuretInfoTableViewCell")

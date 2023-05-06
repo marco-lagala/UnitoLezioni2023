@@ -6,14 +6,14 @@ class TuretInfoTableViewCell: UITableViewCell {
     
     @IBOutlet weak var addressLabel: UILabel!
     
-    var info: TuretInfo?
+    var info: Turet?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
     
-    func configure(with turetInfo: TuretInfo) {
+    func configure(with turetInfo: Turet) {
         self.info = turetInfo
         let turetId = info?.id.description ?? "n.d."
         identifierLabel.text = "Turet " + turetId

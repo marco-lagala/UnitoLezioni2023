@@ -1,6 +1,6 @@
 
 
-class TuretInfo: Codable {
+class Turet: Codable {
     var id: Int
     var address: String
     var buildingDate: String
@@ -13,3 +13,5 @@ class TuretInfo: Codable {
         self.underMaintenance = underMaintenance
     }
 }
+
+var mockData: [Turet] = load("turet.json")

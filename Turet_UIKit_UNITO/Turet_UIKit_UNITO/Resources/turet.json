@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "Torre di Porta Susa",
+        "address": "Via Garibaldi, 22",
+        "buildingDate": "1700",
+        "underMaintenance": false,
+        "star": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Torre della Zecca",
+        "address": "Piazza Castello, 1",
+        "buildingDate": "1600",
+        "underMaintenance": true,
+        "star": 3.8
+    },
+    {
+        "id": 3,
+        "name": "Torre Littoria",
+        "address": "Via Roma, 123",
+        "buildingDate": "1800",
+        "underMaintenance": false,
+        "star": 4.1
+    },
+    {
+        "id": 4,
+        "name": "Torre dei Commercianti",
+        "address": "Via Lagrange, 12",
+        "buildingDate": "1500",
+        "underMaintenance": false,
+        "star": 4.2
+    },
+    {
+        "id": 5,
+        "name": "Torre del Falcone",
+        "address": "Via Po, 15",
+        "buildingDate": "1400",
+        "underMaintenance": true,
+        "star": 3.5
+    },
+    {
+        "id": 6,
+        "name": "Torre della Trinità",
+        "address": "Piazza San Carlo, 10",
+        "buildingDate": "1600",
+        "underMaintenance": false,
+        "star": 4.8
+    },
+    {
+        "id": 7,
+        "name": "Torre della Catena",
+        "address": "Via Milano, 30",
+        "buildingDate": "1700",
+        "underMaintenance": true,
+        "star": 4.0
+    },
+    {
+        "id": 8,
+        "name": "Torre della Guardia",
+        "address": "Via Po, 25",
+        "buildingDate": "1500",
+        "underMaintenance": false,
+        "star": 4.6
+    },
+    {
+        "id": 9,
+        "name": "Torre della Medusa",
+        "address": "Via Roma, 55",
+        "buildingDate": "1800",
+        "underMaintenance": true,
+        "star": 3.7
+    },
+    {
+        "id": 10,
+        "name": "Torre del Diavolo",
+        "address": "Via Madama Cristina, 10",
+        "buildingDate": "1700",
+        "underMaintenance": false,
+        "star": 4.4
+    },
+    {
+        "id": 11,
+        "name": "Torre dei Rossi",
+        "address": "Via Po, 30",
+        "buildingDate": "1600",
+        "underMaintenance": true,
+        "star": 4.1
+    },
+    {
+        "id": 12,
+        "name": "Torre del Baneo",
+        "address": "Piazza Vittorio Veneto, 5",
+        "buildingDate": "1500",
+        "underMaintenance": false,
+        "star": 4.3
+    }
+]
+
