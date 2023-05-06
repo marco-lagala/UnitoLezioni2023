@@ -43,5 +43,25 @@ extension ListaTuretViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //check if there is a valid element for the current row
+        guard indexPath.row < datasource.count else { return }
+        
+        let info = datasource[indexPath.row]
+        guard let detailVC = storyboard.instantiateViewController(withIdentifier: "TuretDetailViewController") as? TuretDetailViewController else { return }
+        detailVC.configure(with: info)
+        detailVC.modalPresentationStyle = .fullScreen
+        
+        self.navigationController?.pushViewController(detailVC, animated: true)
+        
+        //prepare(for: UIStoryboardSegue(identifier: "showDetail", source: self, destination: detailVC), sender: nil)
+        //performSegue(withIdentifier: "showDetail", sender: nil)
+    }
+    
 }
 
+extension ListaTuretViewController {
+    override var storyboard: UIStoryboard {
+        return UIStoryboard(name: "Main", bundle: nil)
+    }
+}

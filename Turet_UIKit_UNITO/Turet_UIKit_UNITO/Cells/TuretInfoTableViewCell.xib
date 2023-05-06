@@ -34,6 +34,9 @@
                         <color key="tintColor" systemColor="systemGrayColor"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" image="chevron.right" catalog="system" title=""/>
+                        <connections>
+                            <action selector="showDetail" destination="KGk-i7-Jjw" eventType="touchUpInside" id="pbA-dl-XE5"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>

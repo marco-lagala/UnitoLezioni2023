@@ -3,38 +3,22 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Turet Detail View Controller-->
         <scene sceneID="oIz-mD-AjE">
             <objects>
-                <viewController id="qHb-jO-42E" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TuretDetailViewController" id="qHb-jO-42E" customClass="TuretDetailViewController" customModule="Turet_UIKit_UNITO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gPY-dS-y0s">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXx-Er-JGw">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
-                                <items>
-                                    <navigationItem title="Turet Via Alessandro Magno" leftItemsSupplementBackButton="YES" id="lIB-vr-z6k">
-                                        <barButtonItem key="backBarButtonItem" systemItem="cancel" id="r8s-mz-0wK">
-                                            <color key="tintColor" name="AccentColor"/>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" style="plain" id="LUM-7p-Kxc">
-                                            <imageReference key="image" image="xmark" catalog="system" variableValue="0.80000000000000004"/>
-                                            <color key="tintColor" name="AccentColor"/>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71W-iI-Hgp">
-                                <rect key="frame" x="0.0" y="44" width="393" height="329.66666666666669"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="314.66666666666669"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turet Via Alessandro Magno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKl-kH-JdP">
@@ -54,20 +38,22 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="FCw-AO-T79" firstAttribute="bottom" secondItem="O6z-20-Aoh" secondAttribute="bottom" constant="391" id="7bq-ON-6t9"/>
-                            <constraint firstAttribute="trailing" secondItem="aXx-Er-JGw" secondAttribute="trailing" id="BtG-yf-avk"/>
                             <constraint firstItem="lKl-kH-JdP" firstAttribute="leading" secondItem="FCw-AO-T79" secondAttribute="leading" constant="15" id="E2F-ql-RrY"/>
                             <constraint firstItem="lKl-kH-JdP" firstAttribute="top" secondItem="71W-iI-Hgp" secondAttribute="bottom" constant="10" id="IJ4-Pf-bpd"/>
                             <constraint firstItem="71W-iI-Hgp" firstAttribute="leading" secondItem="FCw-AO-T79" secondAttribute="leading" id="JOH-yN-tbG"/>
-                            <constraint firstItem="aXx-Er-JGw" firstAttribute="top" secondItem="gPY-dS-y0s" secondAttribute="top" id="KhB-GE-1YM"/>
                             <constraint firstItem="O6z-20-Aoh" firstAttribute="top" secondItem="lKl-kH-JdP" secondAttribute="bottom" constant="5" id="R5M-kg-kpf"/>
+                            <constraint firstItem="71W-iI-Hgp" firstAttribute="top" secondItem="FCw-AO-T79" secondAttribute="top" id="UwA-dE-H0k"/>
                             <constraint firstItem="FCw-AO-T79" firstAttribute="trailing" secondItem="lKl-kH-JdP" secondAttribute="trailing" constant="15" id="XyJ-cQ-iz3"/>
                             <constraint firstItem="O6z-20-Aoh" firstAttribute="leading" secondItem="FCw-AO-T79" secondAttribute="leading" constant="15" id="cDA-bz-YNk"/>
                             <constraint firstItem="FCw-AO-T79" firstAttribute="trailing" secondItem="O6z-20-Aoh" secondAttribute="trailing" constant="15" id="dXQ-Tv-826"/>
-                            <constraint firstItem="aXx-Er-JGw" firstAttribute="leading" secondItem="gPY-dS-y0s" secondAttribute="leading" id="fFk-B8-2BO"/>
                             <constraint firstItem="71W-iI-Hgp" firstAttribute="trailing" secondItem="FCw-AO-T79" secondAttribute="trailing" id="i0t-fO-sXO"/>
-                            <constraint firstItem="71W-iI-Hgp" firstAttribute="top" secondItem="aXx-Er-JGw" secondAttribute="bottom" id="vA6-Gl-RlF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="lKl-kH-JdP" id="UHp-S7-1Lb"/>
+                        <outlet property="buildingDateLabel" destination="O6z-20-Aoh" id="57q-0H-0RQ"/>
+                        <outlet property="mapView" destination="71W-iI-Hgp" id="qA8-QP-9na"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQJ-8z-KIL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -123,10 +109,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="xmark" catalog="system" width="128" height="113"/>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
