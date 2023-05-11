@@ -9,6 +9,8 @@ class ListaTuretViewController: UIViewController {
     }
     
     override func viewDidLoad() {
+        print("[LIFECYCLE] - in viewDidLoad()")
+        
         super.viewDidLoad()
         
         self.navigationItem.largeTitleDisplayMode = .always
@@ -64,4 +66,20 @@ extension ListaTuretViewController {
     override var storyboard: UIStoryboard {
         return UIStoryboard(name: "Main", bundle: nil)
     }
+}
+
+//MARK: Lifecycle methods
+extension ListaTuretViewController {
+    override func viewWillAppear(_ animated: Bool) {
+        print("[LIFECYCLE] - in viewWillAppear()")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("[LIFECYCLE] - in viewDidAppear()")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print("[LIFECYCLE] - in viewWillDisappear()")
+    }
+    
 }
