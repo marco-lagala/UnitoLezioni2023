@@ -11,11 +11,10 @@ import MapKit
 struct TuretDetails: View {
     var turet: Turet
     
-    let coordinate = CLLocationCoordinate2D(latitude: 48.8584, longitude: 2.2945)
     var region: MKCoordinateRegion {
             MKCoordinateRegion(
-            center: coordinate,
-            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+            center: CLLocationCoordinate2D(latitude: turet.latitude, longitude: turet.longitude),
+            span: MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001)
         )
     }
 
