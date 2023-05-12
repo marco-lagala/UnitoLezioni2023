@@ -13,6 +13,8 @@ struct Turet: Hashable, Codable, Identifiable {
     var address: String
     var buildingDate: String
     var underMaintenance: Bool
+    var latitude: Double
+    var longitude: Double
 }
 
 var mockData: [Turet] = load("turet.json")
