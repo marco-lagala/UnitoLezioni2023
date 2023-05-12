@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEB169DA2A0E21A6005FAF22 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB169D92A0E21A6005FAF22 /* LocationManager.swift */; };
 		EEBAFC532A0580D0008C888B /* TuretRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAFC522A0580D0008C888B /* TuretRow.swift */; };
 		EEBAFC572A058DF6008C888B /* TuretDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBAFC562A058DF6008C888B /* TuretDetails.swift */; };
 		EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEB169D92A0E21A6005FAF22 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		EEBAFC522A0580D0008C888B /* TuretRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretRow.swift; sourceTree = "<group>"; };
 		EEBAFC562A058DF6008C888B /* TuretDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretDetails.swift; sourceTree = "<group>"; };
 		EEC18A2A2A003C01009DC987 /* Turet_SwiftUI_UNITO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turet_SwiftUI_UNITO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				EEC18A572A00456F009DC987 /* TuretList.swift */,
-				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
 				EEBAFC522A0580D0008C888B /* TuretRow.swift */,
 				EEBAFC562A058DF6008C888B /* TuretDetails.swift */,
 			);
@@ -118,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */,
+				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
 				EEC18A312A003C02009DC987 /* Assets.xcassets */,
 				EEC18A5F2A004F09009DC987 /* Resources */,
 				EEC18A592A004C6E009DC987 /* Model */,
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				EEC18A5D2A004DF7009DC987 /* LoadJson.swift */,
+				EEB169D92A0E21A6005FAF22 /* LocationManager.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				EEBAFC572A058DF6008C888B /* TuretDetails.swift in Sources */,
 				EEBAFC532A0580D0008C888B /* TuretRow.swift in Sources */,
 				EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */,
+				EEB169DA2A0E21A6005FAF22 /* LocationManager.swift in Sources */,
 				EEC18A5E2A004DF7009DC987 /* LoadJson.swift in Sources */,
 				EEC18A5B2A004C7B009DC987 /* Turet.swift in Sources */,
 				EEC18A582A00456F009DC987 /* TuretList.swift in Sources */,
@@ -476,6 +480,7 @@
 				DEVELOPMENT_TEAM = SGM73ULJLG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Utilizziamo la posizione per trovare i turet";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -505,6 +510,7 @@
 				DEVELOPMENT_TEAM = SGM73ULJLG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Utilizziamo la posizione per trovare i turet";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

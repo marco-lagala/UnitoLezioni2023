@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var locationManager: LocationManager
+    
     var turets: [Turet]
     
     var body: some View {
+        Text("Location: \(locationManager.userLocation?.coordinate.latitude ?? 0), \(locationManager.userLocation?.coordinate.longitude ?? 0)")
+
         TuretList(turets: turets)
     }
 }
@@ -28,6 +32,7 @@ struct ContentView_Previews: PreviewProvider {
                 .previewDisplayName("iPhone SE")
             
         }
+        .environmentObject(LocationManager())
         
     }
 }
