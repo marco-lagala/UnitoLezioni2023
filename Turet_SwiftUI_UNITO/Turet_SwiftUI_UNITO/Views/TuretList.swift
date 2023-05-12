@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct TuretList: View {
     var turets: [Turet]
@@ -27,5 +28,8 @@ struct TuretList: View {
 struct TuretList_Previews: PreviewProvider {
     static var previews: some View {
         TuretList(turets: mockData)
+            .environmentObject(
+                LocationManager(mockLocation: CLLocation(latitude: 45.0703, longitude: 7.6869))
+            )
     }
 }

@@ -6,9 +6,17 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct TuretRow: View {
+    @EnvironmentObject var locationManager: LocationManager
+    
     var turet: Turet
+    
+    var distance: String {
+        let location = CLLocation(latitude: turet.latitude, longitude: turet.longitude)
+        return locationManager.distanceString(from: location)
+    }
     
     var marker: some View {
         ZStack {
@@ -29,7 +37,7 @@ struct TuretRow: View {
             VStack(alignment: .center) {
                 marker
                             
-                Text("500m")
+                Text(distance)
                     .font(.caption)
                     .foregroundColor(.gray)
                     .offset(y: -10)
@@ -55,10 +63,14 @@ struct TuretRow: View {
 }
 
 struct TuretRow_Previews: PreviewProvider {
+    
     static var previews: some View {
         List {
             TuretRow(turet: mockData[0])
             TuretRow(turet: mockData[1])
         }
+        .environmentObject(
+            LocationManager(mockLocation: CLLocation(latitude: 45.0703, longitude: 7.6869))
+        )
     }
 }
