@@ -6,7 +6,9 @@
         "address": "Via Garibaldi, 22",
         "buildingDate": "1700",
         "underMaintenance": false,
-        "star": 4.5
+        "star": 4.5,
+        "latitude": 45.07788,
+        "longitude": 7.68094
     },
     {
         "id": 2,
@@ -14,15 +16,19 @@
         "address": "Piazza Castello, 1",
         "buildingDate": "1600",
         "underMaintenance": true,
-        "star": 3.8
+        "star": 3.8,
+        "latitude": 45.07081,
+        "longitude": 7.68642
     },
     {
         "id": 3,
         "name": "Torre Littoria",
-        "address": "Via Roma, 123",
+        "address": "Via Masserano, 4",
         "buildingDate": "1800",
         "underMaintenance": false,
-        "star": 4.1
+        "star": 4.1,
+        "latitude": 45.06708,
+        "longitude": 7.68576
     },
     {
         "id": 4,
@@ -30,7 +36,9 @@
         "address": "Via Lagrange, 12",
         "buildingDate": "1500",
         "underMaintenance": false,
-        "star": 4.2
+        "star": 4.2,
+        "latitude": 45.06875,
+        "longitude": 7.68424
     },
     {
         "id": 5,
@@ -38,7 +46,9 @@
         "address": "Via Po, 15",
         "buildingDate": "1400",
         "underMaintenance": true,
-        "star": 3.5
+        "star": 3.5,
+        "latitude": 45.06983,
+        "longitude": 7.69749
     },
     {
         "id": 6,
@@ -46,7 +56,9 @@
         "address": "Piazza San Carlo, 10",
         "buildingDate": "1600",
         "underMaintenance": false,
-        "star": 4.8
+        "star": 4.8,
+        "latitude": 45.07025,
+        "longitude": 7.6867
     },
     {
         "id": 7,
@@ -54,7 +66,9 @@
         "address": "Via Milano, 30",
         "buildingDate": "1700",
         "underMaintenance": true,
-        "star": 4.0
+        "star": 4.0,
+        "latitude": 45.07196,
+        "longitude": 7.69282
     },
     {
         "id": 8,
@@ -62,7 +76,9 @@
         "address": "Via Po, 25",
         "buildingDate": "1500",
         "underMaintenance": false,
-        "star": 4.6
+        "star": 4.6,
+        "latitude": 45.06878,
+        "longitude": 7.69773
     },
     {
         "id": 9,
@@ -70,7 +86,9 @@
         "address": "Via Roma, 55",
         "buildingDate": "1800",
         "underMaintenance": true,
-        "star": 3.7
+        "star": 3.7,
+        "latitude": 45.06812,
+        "longitude": 7.68013
     },
     {
         "id": 10,
@@ -78,7 +96,9 @@
         "address": "Via Madama Cristina, 10",
         "buildingDate": "1700",
         "underMaintenance": false,
-        "star": 4.4
+        "star": 4.4,
+        "latitude": 45.06122,
+        "longitude": 7.66941
     },
     {
         "id": 11,
@@ -86,7 +106,9 @@
         "address": "Via Po, 30",
         "buildingDate": "1600",
         "underMaintenance": true,
-        "star": 4.1
+        "star": 4.1,
+        "latitude": 45.0688,
+        "longitude": 7.6943
     },
     {
         "id": 12,
@@ -94,6 +116,8 @@
         "address": "Piazza Vittorio Veneto, 5",
         "buildingDate": "1500",
         "underMaintenance": false,
-        "star": 4.3
+        "star": 4.3,
+        "latitude": 45.06866,
+        "longitude": 7.68513
     }
 ]
