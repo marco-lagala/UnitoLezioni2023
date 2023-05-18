@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE03CBA52A16B118006F5DFA /* TuretList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE03CBA42A16B118006F5DFA /* TuretList.swift */; };
 		EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */; };
 		EEC18A302A003C01009DC987 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC18A2F2A003C01009DC987 /* ContentView.swift */; };
 		EEC18A322A003C02009DC987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC18A312A003C02009DC987 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE03CBA42A16B118006F5DFA /* TuretList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuretList.swift; sourceTree = "<group>"; };
 		EEC18A2A2A003C01009DC987 /* Turet_SwiftUI_UNITO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turet_SwiftUI_UNITO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turet_SwiftUI_UNITOApp.swift; sourceTree = "<group>"; };
 		EEC18A2F2A003C01009DC987 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				EEC18A2D2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift */,
 				EEC18A2F2A003C01009DC987 /* ContentView.swift */,
+				EE03CBA42A16B118006F5DFA /* TuretList.swift */,
 				EEC18A312A003C02009DC987 /* Assets.xcassets */,
 				EEC18A332A003C02009DC987 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				EEC18A302A003C01009DC987 /* ContentView.swift in Sources */,
 				EEC18A2E2A003C01009DC987 /* Turet_SwiftUI_UNITOApp.swift in Sources */,
+				EE03CBA52A16B118006F5DFA /* TuretList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
